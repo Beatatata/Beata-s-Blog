@@ -56,3 +56,60 @@ p{
 .main img{
     width: 880px;
 }
+#beataimg{
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    background-color: gold;
+    background-image: url(../image/beataimg.png);
+    background-size: auto 100%;
+
+}
+.p0{
+    font-size: 1em;
+    color: #333333;
+    font-family: "pingfang";
+    font-weight: normal;
+    margin: 6px 0px;
+    padding-left: 20px;
+}
+.p1{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #999999;
+    font-family: "pingfang";
+    font-weight: lighter;
+    margin: 2px 0px;
+    padding-left: 20px;
+}
+.aboutme{
+    border: solid 1px #999999;
+    padding: 20px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 880px;
+}
+#aboutmebox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.share{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sharelink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+}
+.sharelink img{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
