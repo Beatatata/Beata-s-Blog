@@ -8,6 +8,14 @@
     grid-gap: 13%;
     padding-top: 3%;
 }
+@media (min-width: 0px) and (max-width: 839px) {
+    .main{
+        display: grid;
+        grid-template-columns: 10% 90%;
+        grid-gap: 13%;
+        padding-top: 3%;
+    }
+}
 #list ul{
     list-style-type: none;
     margin: 0px;
