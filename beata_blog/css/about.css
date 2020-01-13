@@ -1,0 +1,69 @@
+#about:only-child{
+    color: #000000;
+    font-weight: normal;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+#aboutme{
+    width: 340px;
+    height: 70%;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0 8px 16px rgba(0,0,0,.02);
+}
+#aboutmebox{
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+}
+#beataimg{
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    margin: 40px 0px 0px 30px;
+    background-color: gold;
+    background-image: url(../image/beataimg.png);
+}
+#p0{
+    font-size: 1em;
+    color: #333333;
+    font-family: "pingfang";
+    font-weight: normal;
+    margin: 10px 0px;
+}
+#p1{
+    font-size: 0.8em;
+    text-decoration: none; 
+    color: #999999;
+    font-family: "pingfang";
+    font-weight: lighter;
+    margin: 0px;
+}
+#p2{
+    font-size: 0.8em;
+    text-decoration: none; 
+    color: #666666;
+    font-family: "pingfang";
+    font-weight: normal;
+    padding: 10% 0px;
+    /* text-align:center; */
+}
+#linkimg{
+    width: 120px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 0px;
+    position: absolute;
+    bottom: 0%;
+}
+#linkimg img{
+    width: 20px;
+    height: 20px;
+}
