@@ -4,9 +4,18 @@
 }
 .main{
     padding-top: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 880px 1fr;
+}
+@media (min-width: 720px) and (max-width:1200px) {
+    .main{
+        grid-template-columns: 1fr minmax(680px, 880px) 1fr;
+    }
+}
+@media (min-width: 0px) and (max-width: 719px) {
+    .main{
+        grid-template-columns: 1fr minmax(400px, 679px) 1fr;
+    }
 }
 .mainarticle{
     padding: 6% 10%;
@@ -14,8 +23,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 880px;
 }
 .space{
     width: 5px;
@@ -53,8 +60,11 @@ p{
 .text{
     padding: 2%;
 }
-.main img{
-    width: 880px;
+.text img{
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
 }
 #beataimg{
     width: 60px;
@@ -63,6 +73,7 @@ p{
     background-color: gold;
     background-image: url(../image/beataimg.png);
     background-size: auto 100%;
+
 }
 .p0{
     font-size: 1em;
@@ -89,6 +100,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 #aboutmebox{
     display: flex;

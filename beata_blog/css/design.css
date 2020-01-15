@@ -4,21 +4,21 @@
 }
 .main{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: minmax(330px, auto) minmax(330px, auto) minmax(330px, auto);
+    grid-template-rows: repeat(2, minmax(210px, auto));
+    grid-template-columns: repeat(3, minmax(300px, auto));
     grid-gap: 30px;
     padding: 3% 8%;
 }
-@media (min-width: 840px) and (max-width:1200px) {
+@media (min-width: 720px) and (max-width:1200px) {
     .main{
         display: grid;
-        grid-template-rows: repeat(3, minmax(260px,  auto));
-        grid-template-columns: minmax(330px, auto) minmax(330px, auto);
+        grid-template-rows: repeat(3, minmax(210px,  auto));
+        grid-template-columns: minmax(300px, auto) minmax(300px, auto);
         grid-gap: 30px;
         padding: 3% 8%;
     }
 }
-@media (min-width: 0px) and (max-width: 839px) {
+@media (min-width: 0px) and (max-width: 719px) {
     .main{
     display: grid;
     grid-template-rows: repeat(6, minmax(300px, auto));
@@ -35,39 +35,7 @@
     max-width: 100%;
     height: auto;
 }
-#des1{
-    background-image: url(../image/design/001.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-}
-#des2{
-    background-image: url(../image/design/002.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-}
-#des3{
-    background-image: url(../image/design/003.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-}
-#des4{
-    background-image: url(../image/design/004.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-}
-#des5{
-    background-image: url(../image/design/005.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-}
-#des6{
-    background-image: url(../image/design/006.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
+.inset img{
+    display: block;
+    object-fit: cover;
 }

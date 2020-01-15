@@ -2,3 +2,43 @@
     color: #000000;
     font-weight: normal;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+#likeit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#lottie{
+    width:100%;
+    height:80%;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+button{
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#animation{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    padding-bottom: 10px;
+}

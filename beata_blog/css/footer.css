@@ -1,0 +1,16 @@
+footer{
+    height: 30px;
+    grid-area: footer;
+    color: #999999;
+    font-family: "pingfang";
+    font-weight: lighter;
+    font-size: 0.4em;
+    line-height: 90%;
+    text-align:center;
+    padding-top: 10px;
+    /* border: solid 1px gold; */
+}
+footer a{
+    text-decoration: none; 
+    color: #999999;
+}
