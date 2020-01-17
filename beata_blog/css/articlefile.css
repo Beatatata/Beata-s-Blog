@@ -27,24 +27,6 @@
 .space{
     width: 5px;
 }
-h1{
-    margin: 0px;
-}
-h2{
-    margin: 0px;
-}
-h3{
-    margin: 0px;
-}
-h4{
-    margin: 6px 0px;
-}
-h5{
-    margin: 0px;
-}
-p{
-    margin: 0px;
-}
 .about{
     display: flex;
     flex-direction: row;
@@ -65,7 +47,7 @@ p{
     object-fit: cover;
     max-width: 100%;
     height: auto;
-}
+}s
 #beataimg{
     width: 60px;
     height: 60px;
