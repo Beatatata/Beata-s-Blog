@@ -11,5 +11,5 @@ var params = {
     renderer: 'svg', 
     loop: false, //是否循环播放
     autoplay: true, //是否自动播放
-    path: 'https://assets10.lottiefiles.com/packages/lf20_4ENWTV.json' // 加载json的文件名
+    path: 'https://assets10.lottiefiles.com/packages/lf20_4ENWTV.json' // lottie动画链接
 };
